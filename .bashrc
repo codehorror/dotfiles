@@ -50,14 +50,14 @@ if [ ! -z "$SOLVATIO_HELPDESK1" ]; then
 fi
 
 if [ ! -z "$SOLVATIO_HELPDESK2" ]; then
-  alias cdsl="cd $SOLVATIO_APP_PATH/logs/$SOLVATIO_HELPDESK2/solvatio"
-  alias cdal="cd $SOLVATIO_APP_PATH/logs/$SOLVATIO_HELPDESK2"
-  alias cdsc="cd $SOLVATIO_APP_PATH/config/$SOLVATIO_HELPDESK2"
+  alias cd2sl="cd $SOLVATIO_APP_PATH/logs/$SOLVATIO_HELPDESK2/solvatio"
+  alias cd2al="cd $SOLVATIO_APP_PATH/logs/$SOLVATIO_HELPDESK2"
+  alias cd2sc="cd $SOLVATIO_APP_PATH/config/$SOLVATIO_HELPDESK2"
 fi
 
 if [ ! -z "$SOLVATIO_HUB" ]; then
-  alias cdsl="cd $SOLVATIO_APP_PATH/logs/$SOLVATIO_HUB/solvatio"
-  alias cdal="cd $SOLVATIO_APP_PATH/logs/$SOLVATIO_HUB"
-  alias cdsc="cd $SOLVATIO_APP_PATH/config/$HUB"
+  alias cdhsl="cd $SOLVATIO_APP_PATH/logs/$SOLVATIO_HUB/solvatio"
+  alias cdhal="cd $SOLVATIO_APP_PATH/logs/$SOLVATIO_HUB"
+  alias cdhsc="cd $SOLVATIO_APP_PATH/config/$HUB"
 fi
 
