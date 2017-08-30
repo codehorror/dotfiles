@@ -7,6 +7,8 @@ export PS1="\[\033[38;5;11m\]\u\[$(tput sgr0)\]\[\033[38;5;15m\] @ \[$(tput sgr0
 alias ll="ls -lhA"
 alias ls="ls -CF"
 
+alias c="clear"
+
 alias ..="cd .."
 alias ...="cd ../.."
 alias ....="cd ../../.."
