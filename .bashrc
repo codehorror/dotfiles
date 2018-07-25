@@ -30,6 +30,12 @@ if [ "$HOSTNAME" = "t-sol-as-02.swi.srse.net" ]; then
   SOLVATIO_HELPDESK1="test-helpdesk1"
 fi
 
+if [ "$HOSTNAME" = "t2-sol-as-01.swi.srse.net" ]; then
+  SOLVATIO_HELPDESK1="test2-helpdesk1"
+  SOLVATIO_HELPDESK2="test2-helpdesk2"
+  SOLVATIO_HUB="test2-hub"
+fi
+
 if [ "$HOSTNAME" = "p-sol-as-01.swi.srse.net" ]; then
   SOLVATIO_HELPDESK1="prod-helpdesk1"
   SOLVATIO_HUB="prod-hub"
